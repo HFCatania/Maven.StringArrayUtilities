@@ -31,6 +31,7 @@ public class RemovePackDuplicatesTest {
         String[] expected = {"m", "oo", "n", "m", "a", "n"};
         String[] actual = StringArrayUtils.packConsecutiveDuplicates(array);
         Assert.assertEquals(expected, actual);
+
     }
 
 
